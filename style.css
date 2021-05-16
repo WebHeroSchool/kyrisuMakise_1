@@ -1,11 +1,11 @@
 .main-content__title, .logo {
-  font-family: 'PT Serif';
+  font-family: 'pt_serifregular';
   font-style: normal;
   font-weight: bold;
 }
 
 .menu, .main-content__subtitle, .main-content__button {
-  font-family: 'Roboto';
+  font-family: 'robotoregular';
   font-style: normal;
   font-weight: normal;
 }
@@ -20,12 +20,15 @@ body {
 }
 
 .header {
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
-  padding: 40px 0;
+  width: 190px;
+  height: 35px;
+  background: url('img/logo.svg');
 }
 
 .menu {
