@@ -10,7 +10,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 169px;
+  margin-bottom: 134px;
 }
 
 .logo {
@@ -101,13 +101,13 @@ body {
 }
 
 .main {
-  padding: 37px 63% 100% 0;
+  padding: 72px 63% 100% 0;
   background: top right no-repeat url(img/frame.svg);
   background-size: 50%;
 }
 
 .main__title {
-  margin: 0 0 40px 0;
+  margin: 0 0 35px 0;
   font: bold 66px/88px pt_serifbold,arial,helvetica,sans-serif;
 }
 
