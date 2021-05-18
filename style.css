@@ -10,7 +10,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 206px;
+  margin-bottom: 169px;
 }
 
 .logo {
@@ -101,17 +101,19 @@ body {
 }
 
 .main {
-  padding: 0 63% 206px 0;
+  padding: 37px 63% 100% 0;
   background: top right no-repeat url(img/frame.svg);
+  background-size: 50%;
 }
 
 .main__title {
-  margin-bottom: 0 0 40px 0;
+  margin: 0 0 40px 0;
   font: bold 66px/88px pt_serifbold,arial,helvetica,sans-serif;
 }
 
 .main__subtitle {
-  margin-bottom: 0 0 59px 0;
+  margin: 0 0 41px 0;
+  width: 75%;
   font: 22px/26px robotoregular, arial, helvetica, sans-serif;
 }
  .main__button {
@@ -119,10 +121,10 @@ body {
   font: 18px/21px robotoregular, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 14px 16px;
+  padding: 19px 27px;
   text-decoration: none;
   border-radius: 4px;
-  transition: all .5s ease;
+  transition: all .4s ease;
  }
 
  .main__button:hover {
@@ -132,5 +134,5 @@ body {
  }
 
  .main__title-text_highlight {
-   background: #ECF3FF;
- }
+   background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
+  }
