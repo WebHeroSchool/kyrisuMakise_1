@@ -112,7 +112,7 @@ body {
 }
 
 .main__subtitle {
-  margin: 0 0 41px 0;
+  margin: 0 0 43px 0;
   width: 75%;
   font: 22px/26px robotoregular, arial, helvetica, sans-serif;
 }
@@ -121,7 +121,7 @@ body {
   font: 18px/21px robotomedium, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 18px 31px 18px 25px;
+  padding: 19px 31px 18px 25px;
   text-decoration: none;
   border-radius: 4px;
   transition: all .4s ease;
