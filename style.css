@@ -49,7 +49,7 @@ body {
 .menu__item {
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px roboto-medium-webfont, arial, helvetica, sans-serif;
+  font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: .5s;
