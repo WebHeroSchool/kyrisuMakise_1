@@ -104,7 +104,6 @@ body {
 .main {
   padding: 72px 63% 100% 0;
   background: top right no-repeat url(img/frame.svg);
-  background-size: 50%;
 }
 
 .main__title {
@@ -119,7 +118,7 @@ body {
 }
  .main__button {
   display: inline-block;
-  font: 17px/21px robotomedium, arial, helvetica, sans-serif;
+  font: 18px/21px robotomedium, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
   padding: 18px 43px 18px 25px;
@@ -153,4 +152,8 @@ body {
 
 .third_circle {
   transform: translateX(+150%);
+}
+
+@media (min-width: 1170px) {
+
 }
