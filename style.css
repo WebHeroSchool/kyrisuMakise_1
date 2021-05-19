@@ -1,5 +1,5 @@
 body {
-  margin: 0
+  margin: 0;
 }
 
 .wrapper{
@@ -136,3 +136,20 @@ body {
  .main__title-text_highlight {
    background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
   }
+.first_circle, .second_circle, .third_circle {
+  margin-top: 209px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  background: #C8DBFB;
+}
+
+.first_circle {
+  transform: translateX(-150%);
+}
+
+.third_circle {
+  transform: translateX(+150%);
+}
