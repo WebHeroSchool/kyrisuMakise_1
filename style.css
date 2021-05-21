@@ -8,15 +8,15 @@
 }
 
 .header {
+  padding: 32px 0;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 131px;
+  margin-bottom: 140px;
 }
 
 .logo {
   position: relative;
-  padding: 40px 0;
-  padding-left: 44px;
+  padding-left: 40px;
   font: bold 24px/31px pt_serifbold, arial; helvetica, sans-serif;
 }
 
@@ -48,8 +48,8 @@
 
 .menu__item {
   position: relative;
-  margin-right: 24px;
-  margin-top: 3px;
+  margin-right: 28px;
+  margin-top: 4px;
   font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -102,17 +102,17 @@
 }
 
 .main {
-  padding: 72px 63% 100% 0;
+  padding: 73px 63% 50% 0;
   background: top right no-repeat url(img/frame.svg);
 }
 
 .main__title {
-  margin: 0 0 32px 0;
+  margin: 0 0 42px 0;
   font: bold 66px/88px pt_serifbold,arial,helvetica,sans-serif;
 }
 
 .main__subtitle {
-  margin: 0 0 43px 0;
+  margin: 0 0 37px 0;
   width: 75%;
   font: 22px/26px robotoregular, arial, helvetica, sans-serif;
 }
@@ -121,7 +121,7 @@
   font: 18px/21px robotomedium, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 19px 31px 18px 25px;
+  padding: 19px 33px 19px 21px;
   text-decoration: none;
   border-radius: 4px;
   transition: all .4s ease;
@@ -137,7 +137,7 @@
    background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
   }
 .first_circle, .second_circle, .third_circle {
-  margin-top: 271px;
+  margin-top: 268px;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -155,5 +155,46 @@
 }
 
 @media (min-width: 1170px) {
+
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 28px;
+  }
+
+  .main {
+    text-align: center;
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+  }
+  .main__title {
+    margin-bottom: 44px;
+    font: bold 30px/39px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle {
+    width: 100%;
+    margin-bottom: 25px;
+    font: 500 16px/19px robotomedium, arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    font: 500 14px/15px robotomedium, arial, helvetica, sans-serif;
+  }
+
+  .logo {
+    visibility: hidden;
+
+  }
+
+  .logo__circle_color_blue, .logo__circle_color_dark-blue {
+    visibility: visible;
+  }
 
 }
