@@ -275,7 +275,7 @@
   /* элементы меню */
     .menu__item {
       display: block;
-      padding: 12px 24px;
+      padding: 0 0 35px 0;
       color: #333;
       font-family: 'robotoregular', sans-serif;
       font-size: 30px;
