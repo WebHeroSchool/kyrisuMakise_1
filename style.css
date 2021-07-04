@@ -41,7 +41,7 @@
 
 .logo__circle_color_blue {
   left: 8px;
-  top: 56%;
+  top: 75%;
   background: #C8DBFB;
 }
 
@@ -316,7 +316,51 @@
       transition-duration: .25s;
     }
   /*hamburger*/
+}
 
+@media (max-width: 1025px) {
+  .wrapper {
+    width: 93%;
+  }
+
+  .header {
+    margin: 0 3px 0 3px;
+    padding: 32px 0 123px 0;
+  }
+
+  .logo {
+    padding-left: 44px;
+  }
+
+  .menu__item {
+    margin: 6px 26px 0 0;
+    font: 500 14px/16px robotomedium, arial, helvetica, sans-serif;
+  }
+
+  .main__title {
+    font: bold 50px/65px pt_serifbold, arial, helvetica, sans-serif;
+    margin-bottom: 39px;
+  }
+
+  .main {
+    padding: 2% 55% 50% 3px;
+    background-size: 55%;
+  }
+
+  .main__subtitle {
+    font: 18px/22px robotomedium, arial, helvetica, sans-serif;
+    width: 85%;
+    margin-bottom: 42px;
+  }
+
+  .main__button {
+    font: 14px/16px robotomedium, arial, helvetica, sans-serif;
+    padding: 14px 25px 14px 16px
+  }
+
+  .first_circle, .second_circle, .third_circle {
+    margin: 147px 0 0 -4px;
+  }
 
 
 }
