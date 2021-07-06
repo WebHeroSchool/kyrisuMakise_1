@@ -158,7 +158,6 @@
   transform: translateX(+150%);
 }
 
-
 @media (max-width: 768px) {
   .menu {
     display: none;
@@ -382,7 +381,7 @@
   .logo {
     padding-left: 44px;
   }
-  ===========
+
   .main {
     padding: 2% 50% 20% 0;
     background-size: 55%;
