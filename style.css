@@ -361,6 +361,51 @@
   .first_circle, .second_circle, .third_circle {
     margin: 147px 0 0 -4px;
   }
+}
 
+@media (max-width: 1367px) {
+  .wrapper {
+    width: 69%;
+  }
 
+  .header {
+    margin: 0 4px 90px 2px;
+    padding-top: 32px;
+  }
+
+  .menu__item {
+    font: 500 14px/19px robotomedium, arial, helvetica, sans-serif;
+    margin-right: 26px;
+    margin-top: 6px;
+  }
+
+  .logo {
+    padding-left: 44px;
+  }
+  ===========
+  .main {
+    padding: 2% 50% 20% 0;
+    background-size: 55%;
+  }
+
+  .main__title {
+    font: bold 50px/66px pt_serifbold,arial,helvetica,sans-serif;
+    margin: 0 0 9% 0;
+  }
+
+  .main__subtitle {
+    font: 18px/21px robotomedium, arial, helvetica, sans-serif;
+    width: 85%;
+    margin-bottom: 40px;
+  }
+
+  .main__button {
+    font: 14px/16px robotomedium, arial, helvetica, sans-serif;
+    padding: 14px 25px 14px 16px;
+    margin-left: 2px;
+  }
+
+  .first_circle, .second_circle, .third_circle {
+    margin: 147px 0 0 -4px;
+  }
 }
