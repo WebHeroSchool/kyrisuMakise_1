@@ -107,8 +107,8 @@ body {
 
 .main {
   padding: 73px 63% 50% 0;
-  margin-left: 5px;
-  background: top right no-repeat url(img/frame.svg);
+  margin-left: 6px;
+  background: top right 5px no-repeat url(img/frame.svg);
 }
 
 .main__title {
@@ -159,14 +159,19 @@ body {
   transform: translateX(+150%);
 }
 
+@media (min-width: 1368px) and (max-width: 1515px) {
+  .main {
+    background-size: 60%;
+  }
+}
+
 @media (max-width: 1367px) {
   .wrapper {
     width: 69%;
   }
 
   .header {
-    margin: 0 4px 90px 2px;
-    padding-top: 32px;
+    margin: 0 4px 83px 2px;
   }
 
   .menu__item {
@@ -180,19 +185,19 @@ body {
   }
 
   .main {
-    padding: 2% 50% 20% 0;
+    padding: 2% 53% 20% 0;
     background-size: 55%;
   }
 
   .main__title {
-    font: bold 50px/66px pt_serifbold,arial,helvetica,sans-serif;
+    font: bold 50px/65px pt_serifbold,arial,helvetica,sans-serif;
     margin: 0 0 9% 0;
   }
 
   .main__subtitle {
     font: 18px/21px robotomedium, arial, helvetica, sans-serif;
     width: 85%;
-    margin-bottom: 40px;
+    margin-bottom: 42px;
   }
 
   .main__button {
@@ -217,7 +222,17 @@ body {
   }
 
   .logo {
-    padding-left: 44px;
+    padding-left: 46px;
+  }
+
+  .logo__circle_color_dark-blue {
+    left: 2px;
+    top: 46%;
+  }
+
+  .logo__circle_color_blue {
+    left: 10px;
+    top: 72%;
   }
 
   .menu__item {
@@ -246,7 +261,8 @@ body {
 
   .main__button {
     font: 14px/16px robotomedium, arial, helvetica, sans-serif;
-    padding: 15px 24px 15px 16px
+    padding: 15px 26px 13px 16px;
+    margin-left: 0px;
   }
 
   .first_circle, .second_circle, .third_circle {
