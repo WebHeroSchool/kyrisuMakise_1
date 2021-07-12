@@ -130,7 +130,7 @@ body {
   padding: 19px 33px 19px 21px;
   text-decoration: none;
   border-radius: 4px;
-  animation: animate_grow 2s infinite
+  animation: animate_grow 2s infinite;
   position:absolute;
  }
 
