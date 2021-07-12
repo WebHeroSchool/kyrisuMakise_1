@@ -131,6 +131,7 @@ body {
   text-decoration: none;
   border-radius: 4px;
   animation: animate_grow 2s infinite
+  position:absolute;
  }
 
 .animate_grow:hover {
